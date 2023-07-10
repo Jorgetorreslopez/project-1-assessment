@@ -16,14 +16,12 @@ let countTotal = 0
 // }
 
 addbutton.addEventListener("click", (event) => {
-  event.preventDefault();
   const value = parseInt(inputField.value)
   countTotal += value
   total.textContent = countTotal
 });
 
 subbutton.addEventListener("click", (event) => {
-    event.preventDefault();
     const value = parseInt(inputField.value)
     countTotal -= value
     total.textContent = countTotal
